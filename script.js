@@ -19,6 +19,8 @@ function updateResult(bool) {
     } else {
         result.innerHTML = `<b>${textInput.value}</b> is not a palindrome.`
     }
+
+    textInput.value = '';
 }
 
 function checkPalindrome() {
