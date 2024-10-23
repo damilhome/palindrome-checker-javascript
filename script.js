@@ -12,17 +12,13 @@ function reverseString(str) {
 }
 
 function updateResult(bool) {
-    const paragraph = document.createElement('p');
+    result.style.display = 'block';
 
     if(bool) {
-        paragraph.innerHTML = `<b>${textInput.value}</b> is a palindrome.`
+        result.innerHTML = `<b>${textInput.value}</b> is a palindrome.`
     } else {
-        paragraph.innerHTML = `<b>${textInput.value}</b> is not a palindrome.`
+        result.innerHTML = `<b>${textInput.value}</b> is not a palindrome.`
     }
-
-    result.appendChild(paragraph);
-
-    result.style.display = 'block';
 }
 
 function checkPalindrome() {
