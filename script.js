@@ -3,9 +3,9 @@ const textInput = document.getElementById('text-input');
 const result = document.getElementById('result');
 
 function removeNonAlphabetic(str) {
-    const regex = /[^a-zA-Z]/g;
+    const regex = /[^a-zA-Z0-9]/g;
     return str.replace(regex, '');
-}
+  }
 
 function reverseString(str) {
     return str.split('').reverse().join('');
