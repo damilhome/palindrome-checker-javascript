@@ -1,0 +1,13 @@
+:root {
+    --bg-color: #0A0A23;
+    --text-color: #FFF;
+    --checker-bg-color: #FFF;
+    --btn-color: #5A01A7;
+    --palindrome-color: #00471B;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
